@@ -1,0 +1,28 @@
+{
+  "name": "shutttle",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "mobx-state-tree": "^3.14.0",
+    "react": "16.8.3",
+    "react-native": "0.59.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
